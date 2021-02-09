@@ -13,7 +13,7 @@ const breedDetailsFromFile = function(breed, callback) {
 };
 
 const catBreedInfo = breed => {
-  console.log('Return Value: ', breed)
-}
+  console.log('Return Value: ', breed);
+};
 
 breedDetailsFromFile('Bombay', catBreedInfo);
